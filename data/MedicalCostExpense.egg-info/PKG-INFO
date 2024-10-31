@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: MedicalCostExpense
+Version: 0.0.1
+Author: Latha
+Author-email: lathacharugundland@gmail.com
+Requires-Dist: Flask==3.0.3
+Requires-Dist: pandas==2.2.3
+Requires-Dist: gunicorn==23.0.0
