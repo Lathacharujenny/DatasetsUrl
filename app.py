@@ -1,4 +1,4 @@
-from flask import Flask, jsonify
+from flask import Flask, jsonify, render_template
 import pandas as pd
 
 app = Flask(__name__)
@@ -13,6 +13,10 @@ csv_files = {
     "training": "./data/Training.csv",
     "workout_df": "./data/workout_df.csv"
 }
+
+@app.route('/')
+def index():
+    return render_template('index.html')
 
 def create_csv_name(route_name, file_name):
     # Define the function inside create_csv_name
