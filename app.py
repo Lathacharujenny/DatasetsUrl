@@ -9,7 +9,7 @@ csv_files = {
     "medications": "./data/medications.csv",
     "precautions": "./data/precautions_df.csv",
     "symptom_severity": "./data/Symptom-severity.csv",
-    "symptoms_df": "./data/symptoms_df.csv",  # Fixed typo
+    "symptoms_df": "./data/symptoms_df.csv",  
     "training": "./data/Training.csv",
     "workout_df": "./data/workout_df.csv"
 }
