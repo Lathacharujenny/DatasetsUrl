@@ -11,7 +11,9 @@ csv_files = {
     "symptom_severity": "./data/Symptom-severity.csv",
     "symptoms_df": "./data/symptoms_df.csv",  
     "training": "./data/Training.csv",
-    "workout_df": "./data/workout_df.csv"
+    "workout_df": "./data/workout_df.csv",
+    "quotes": "./data/motivational_quotes_dataset.csv",
+    "emotions": "./data/text.csv"
 }
 
 @app.route('/')
