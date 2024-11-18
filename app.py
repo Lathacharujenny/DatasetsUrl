@@ -13,7 +13,7 @@ csv_files = {
     "training": "./data/Training.csv",
     "workout_df": "./data/workout_df.csv",
     "quotes": "./data/motivational_quotes_dataset.csv",
-    "emotions": "./data/emotions_data.csv"
+    "emotions": "./data/text.csv"
 }
 
 @app.route('/')
